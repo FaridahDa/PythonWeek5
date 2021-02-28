@@ -1,5 +1,8 @@
-p1 = 'you'
-p2 = 'computer'
+from random import randomint
+player_choices = ["Rock", "paper", "siccsors"]
+
+#computer choices
+computer = player
 
 def rps(p1, p2):
     user_choice = input("Please enter your choice:")
