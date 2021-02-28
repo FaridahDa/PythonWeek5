@@ -1,8 +1,10 @@
 import random
 
+
+
 # create list of items
-choices = ["R", "P", "S"]
-player_winning_combinations = ["RP", "SR", "PS"]
+# choices = ["R", "P", "S"]
+# player_winning_combinations = ["RP", "SR", "PS"]
 
 # # computer generated choice
 def computer_choice():
