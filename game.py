@@ -2,7 +2,9 @@
 import functions_rps
 
 # welcome to game
+print("------------------------------------")
 print("Welcome to Rock, Paper, Scissors!")
+print("-------------------------------------")
 
 while True:
     user_choice = functions_rps.get_player_choice()

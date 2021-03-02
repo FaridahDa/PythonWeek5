@@ -1,7 +1,7 @@
 import random
 
 # get player choice
-def get_player_choice (question ="\n Enter your choice (rock, paper or scissors):", possible_answers=["R", "P", "S"]) :
+def get_player_choice (question ="Enter your choice (R, P or S):", possible_answers=["R", "P", "S"]) :
     while True:
         player_choice = input(question)
         if player_choice in possible_answers:
