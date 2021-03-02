@@ -31,11 +31,10 @@ while True:
             print("Scissors cuts paper! You win!")
         else:
             print("Rock smashes scissors! You lose.")
-    play_again = input("Play again? (y/n): ")
-    if play_again.upper()!="y":
-        break
 
-# get end score
+    #play_again = input("Play again? (y/n: ")
+    #if play_again.upper() != "y":
+        #break
 
 
 
