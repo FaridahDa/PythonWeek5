@@ -1,14 +1,11 @@
-from random import randomint
-player_choices = ["Rock", "paper", "siccsors"]
+#!/usr/bin/env python
+import random
 
-#computer choices
-computer = player
+while True :
+    possible_choices = ["rock", "paper", "scissors"]
+    player_choice = input("Please enter a choice (rock, paper or sicssors: \n")
+    computer_choice = random.choice(possible_choices)
+    print(f"\n you chose {player_choice} , computer chose {computer_choice}. \n")
 
-def rps(p1, p2):
-    user_choice = input("Please enter your choice:")
-    beats = {'rocks': 'siccsors', 'paper': 'rock', 'siccsors': 'paper' }
-    if beats[p1] == p2:
-        return 'Player 1 wins!!'
-    if beats[p2] == p1:
-        return 'player 2 wins!!'
-    return 'Draw'
+    if player_choice == computer_choice:
+        print(f"Both players selected {player_choice}. It's a tie!")
